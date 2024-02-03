@@ -19,10 +19,11 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
     tripguide,
     threejs,
+    chatapp,
+    crypto,
+    movix,
   } from "../assets";
   
   export const navLinks = [
@@ -88,14 +89,7 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+ 
     {
       name: "Three JS",
       icon: threejs,
@@ -104,14 +98,7 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+  
   ];
   
   const experiences = [
@@ -198,7 +185,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "chat app",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -207,19 +194,19 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "appwrite",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: chatapp,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "crypto detail",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -228,15 +215,15 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "chakra-ui",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: crypto,
       source_code_link: "https://github.com/",
     },
     {
@@ -257,7 +244,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: movix,
       source_code_link: "https://github.com/",
     },
   ];

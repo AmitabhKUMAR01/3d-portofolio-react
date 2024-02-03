@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../style";
-import { ComputersCanvas } from "./canvas";
+import Lottie from "lottie-react";
+import TonyStark from '../assets/lottie/tonystark.json'
 
 const Hero = () => {
   return (
@@ -23,8 +24,12 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <motion.div initial={{scale:.3}} animate={{scale:.8}}  className="absolute xs:bottom-10  top-[40%] w-full flex justify-center items-center">
+
+      <Lottie animationData={TonyStark}/>
+      </motion.div>
+      {/* <ComputersCanvas /> */}
+      {/* <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
@@ -38,7 +43,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };

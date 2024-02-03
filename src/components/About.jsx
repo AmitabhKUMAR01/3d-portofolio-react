@@ -38,19 +38,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
-        corrupti, consectetur quis aut quae reprehenderit voluptatem dolore,
-        enim dolor voluptates obcaecati provident distinctio debitis nulla
-        veniam totam atque, similique nostrum. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Facere accusantium architecto veritatis
-        earum molestiae nisi mollitia aliquam dolor suscipit vel? Molestias,
-        aliquid odit? Dignissimos temporibus mollitia quo, tempora cumque earum!
+       
+        Hello, my name is Amit and I'm a skilled and ambitious software developer with a passion for creating innovative and user-friendly applications. With my background in computer science and experience working on a range of projects, I have developed a strong understanding of programming languages, frameworks, and best practices. My goal is to continue learning and growing as a developer, and to create software that makes a positive impact on people's lives. I'm always open to new challenges and opportunities, and I'm excited to showcase my work and skills through this portfolio.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

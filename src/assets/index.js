@@ -26,10 +26,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import chatapp from "./chatapp.png";
+import crypto from "./crypto.png"
 import tripguide from "./tripguide.png";
-
+import movix from "./movix.png"; 
 export {
   logo,
   backend,
@@ -56,7 +56,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  chatapp,
+  crypto,
   tripguide,
+  movix
 };
