@@ -203,7 +203,7 @@ import {
         },
       ],
       image: chatapp,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AmitabhKUMAR01/chat-app",
     },
     {
       name: "crypto detail",
@@ -227,25 +227,25 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "movix",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A movie website that combines cutting-edge technology with a passion for film, enabling users to explore a vast collection of movies, stay up-to-date on the latest movie ",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "sass",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "redux",
           color: "pink-text-gradient",
         },
       ],
       image: movix,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AmitabhKUMAR01/Movies-Explorer",
     },
   ];
   
